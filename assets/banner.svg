@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="50%" stop-color="#1e1b4b"/>
+      <stop offset="100%" stop-color="#311042"/>
+    </linearGradient>
+    <linearGradient id="accent-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="50%" stop-color="#818cf8"/>
+      <stop offset="100%" stop-color="#c084fc"/>
+    </linearGradient>
+    <linearGradient id="box-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#d97706"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="300" rx="16" fill="url(#bg-grad)"/>
+
+  <!-- Dynamic / Animated Background Elements (Behind Foreground Text) -->
+  <g opacity="0.25">
+    <!-- Floating package 1 -->
+    <g transform="translate(100, 60)">
+      <animateTransform attributeName="transform" type="translate" values="100,60; 100,45; 100,60" dur="6s" repeatCount="indefinite" />
+      <rect x="0" y="0" width="70" height="70" rx="8" fill="url(#box-grad)" />
+      <line x1="0" y1="35" x2="70" y2="35" stroke="#78350f" stroke-width="4" />
+      <line x1="35" y1="0" x2="35" y2="70" stroke="#78350f" stroke-width="4" />
+    </g>
+
+    <!-- Floating package 2 -->
+    <g transform="translate(1050, 160)">
+      <animateTransform attributeName="transform" type="translate" values="1050,160; 1050,180; 1050,160" dur="5s" repeatCount="indefinite" />
+      <rect x="0" y="0" width="80" height="80" rx="8" fill="url(#box-grad)" />
+      <line x1="0" y1="40" x2="80" y2="40" stroke="#78350f" stroke-width="4" />
+      <line x1="40" y1="0" x2="40" y2="80" stroke="#78350f" stroke-width="4" />
+    </g>
+
+    <!-- Grid pattern / signals -->
+    <circle cx="200" cy="220" r="120" stroke="#818cf8" stroke-width="1.5" fill="none" stroke-dasharray="8 8">
+      <animateTransform attributeName="transform" type="rotate" from="0 200 220" to="360 200 220" dur="30s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="1000" cy="80" r="90" stroke="#38bdf8" stroke-width="1.5" fill="none" stroke-dasharray="6 6">
+      <animateTransform attributeName="transform" type="rotate" from="360 1000 80" to="0 1000 80" dur="25s" repeatCount="indefinite" />
+    </circle>
+  </g>
+
+  <!-- Foreground Title and Subtitle -->
+  <g text-anchor="middle">
+    <!-- Icon / Logo Badge -->
+    <g transform="translate(600, 75)">
+      <rect x="-35" y="-35" width="70" height="70" rx="16" fill="url(#accent-grad)" filter="url(#glow)"/>
+      <path d="M-15 -10 L0 -20 L15 -10 L15 12 L0 20 L-15 12 Z" fill="none" stroke="#ffffff" stroke-width="4" stroke-linejoin="round"/>
+      <path d="M-15 -10 L0 0 L15 -10" fill="none" stroke="#ffffff" stroke-width="4" stroke-linejoin="round"/>
+      <path d="M0 0 L0 20" fill="none" stroke="#ffffff" stroke-width="4"/>
+    </g>
+
+    <!-- Title -->
+    <text x="600" y="175" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="42" font-weight="800" letter-spacing="0.5">
+      Awesome Mailroom Management Platform
+    </text>
+
+    <!-- Subtitle -->
+    <text x="600" y="215" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="18" font-weight="500">
+      Curated Ecosystem of Enterprise Mailroom SaaS &amp; Open-Source Package Tracking Solutions
+    </text>
+
+    <!-- Accent bar -->
+    <rect x="450" y="245" width="300" height="4" rx="2" fill="url(#accent-grad)" />
+  </g>
+</svg>
