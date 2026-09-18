@@ -54,24 +54,24 @@ Below is a curated summary of commercial mailroom platforms, sorted by estimated
 
 ## 💻 Open-Source Repositories & Building Blocks
 
-Purpose-built open-source mailroom suites are rare due to requirements around mobile camera OCR, directory sync, and carrier notifications. However, robust open-source building blocks exist for asset tracking, mail parsing, and parcel tracking. Sorted by **GitHub Star Count (descending)**:
+Purpose-built open-source mailroom suites are rare due to requirements around mobile camera OCR, directory sync, and carrier notifications. However, robust open-source building blocks exist for asset tracking, mail parsing, and parcel tracking. Sorted by **GitHub Stars_Count (descending)**:
 
-- **[grokability/snipe-it](https://github.com/grokability/snipe-it)** [![GitHub stars](https://img.shields.io/github/stars/grokability/snipe-it?style=social&color=white)](https://github.com/grokability/snipe-it/stargazers) 🛠️  
+- **[grokability/snipe-it](https://github.com/grokability/snipe-it)** [![GitHub_Stars](https://img.shields.io/github/stars/grokability/snipe-it?style=social&color=white)](https://github.com/grokability/snipe-it/stargazers) 🛠️  
   *Powerful open-source IT asset and inventory management system. Readily adapted for internal parcel custody logging, storage shelf location mapping, and asset checkout signatures.*
 
-- **[invoiceninja/invoiceninja](https://github.com/invoiceninja/invoiceninja)** [![GitHub stars](https://img.shields.io/github/stars/invoiceninja/invoiceninja?style=social&color=white)](https://github.com/invoiceninja/invoiceninja/stargazers) 💼  
+- **[invoiceninja/invoiceninja](https://github.com/invoiceninja/invoiceninja)** [![GitHub_Stars](https://img.shields.io/github/stars/invoiceninja/invoiceninja?style=social&color=white)](https://github.com/invoiceninja/invoiceninja/stargazers) 💼  
   *Self-hosted management stack with custom fields, client portals, and notification hooks suitable for commercial virtual mailroom billing.*
 
-- **[grocy/grocy](https://github.com/grocy/grocy)** [![GitHub stars](https://img.shields.io/github/stars/grocy/grocy?style=social&color=white)](https://github.com/grocy/grocy/stargazers) 🥫  
+- **[grocy/grocy](https://github.com/grocy/grocy)** [![GitHub_Stars](https://img.shields.io/github/stars/grocy/grocy?style=social&color=white)](https://github.com/grocy/grocy/stargazers) 🥫  
   *ERP and package/inventory tracking system featuring barcode scanner support and location management.*
 
-- **[proninyaroslav/libretrack](https://github.com/proninyaroslav/libretrack)** [![GitHub stars](https://img.shields.io/github/stars/proninyaroslav/libretrack?style=social&color=white)](https://github.com/proninyaroslav/libretrack/stargazers) 📱  
+- **[proninyaroslav/libretrack](https://github.com/proninyaroslav/libretrack)** [![GitHub_Stars](https://img.shields.io/github/stars/proninyaroslav/libretrack?style=social&color=white)](https://github.com/proninyaroslav/libretrack/stargazers) 📱  
   *Private, cross-platform open-source package tracking application. Directly queries postal services on-device without third-party tracking services.*
 
-- **[tpitale/mail_room](https://github.com/tpitale/mail_room)** [![GitHub stars](https://img.shields.io/github/stars/tpitale/mail_room?style=social&color=white)](https://github.com/tpitale/mail_room/stargazers) 📬  
+- **[tpitale/mail_room](https://github.com/tpitale/mail_room)** [![GitHub_Stars](https://img.shields.io/github/stars/tpitale/mail_room?style=social&color=white)](https://github.com/tpitale/mail_room/stargazers) 📬  
   *Mailroom proxy engine for receiving incoming email notifications via IMAP/Graph API and forwarding them to webhooks or background job processing queues.*
 
-- **[orellazri/parcels](https://github.com/orellazri/parcels)** [![GitHub stars](https://img.shields.io/github/stars/orellazri/parcels?style=social&color=white)](https://github.com/orellazri/parcels/stargazers) 🤖  
+- **[orellazri/parcels](https://github.com/orellazri/parcels)** [![GitHub_Stars](https://img.shields.io/github/stars/orellazri/parcels?style=social&color=white)](https://github.com/orellazri/parcels/stargazers) 🤖  
   *AI-powered automated parcel tracking system that monitors emails for shipping notices and aggregates delivery status into a web dashboard.*
 
 ---
